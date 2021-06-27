@@ -1,0 +1,198 @@
+/*color palete
+color:#000000;
+color:#14213d;
+color:#fca311;
+color:#e5e5e5;
+color:#ffffff;
+*/
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+body{
+  margin:0;
+  padding:0;
+  font-family:'Times New Roman' sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+header {
+  background:#e63946;
+  color:#f1faee;
+}
+
+header img{
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+  float:left;
+  padding:20px;
+}
+header h1
+{
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin: 0;
+  font-size: 100px;
+  line-height: 1;
+  text-align: center;
+}
+header h3
+{
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  margin: 0;
+  font-size:35px;
+}
+
+header p{
+
+  font-size:20px;
+}
+.content-wrap {
+  max-width: 800px;
+  width:50%;
+  margin: 0 auto;
+  padding:50px 0;
+
+}
+.Education
+{
+  background:#fdf0d5;
+  color:#2b70e3;
+}
+.Education h2
+{
+  color:#e63946;
+  font-size: 70px;
+  font-family: 'Caveat',cursive;
+  line-height: 1.5;
+}
+.Education p{
+  font-size:18px;
+  width:60%;
+}
+.footer {
+  background:black;
+  color: #F7FFF7;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+.footer h3
+{
+  font-family:'Caveat',cursive;
+  text-align:center;
+  font-size:30px;
+  font-weight:300;
+  color:white;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.column h2
+{
+  text-align: center;
+  font-family: 'Caveat',cursive;
+  color:#1F43DE;
+}
+.column h3
+{
+  color:#E91515;
+}
+.column img{
+  width:100%;
+  height:50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p {
+    font-size: 18px;
+
+       }
+
+       .container {
+           background-color: rgb(192, 192, 192);
+           width: 80%;
+               border-radius: 15px;
+       }
+
+       .skill {
+           background-color: rgb(52,173, 42);
+           color: white;
+           padding: 1%;
+           text-align: right;
+           font-size: 20px;
+          border-radius: 15px;
+       }
+
+       .html {
+           width: 80%;
+       }
+
+       .python{
+         width: 60%;
+       }
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Media queries - Responsive timeline on screens less than 600px wide */
+.footer-list-item {
+      list-style-type: none;
+      display: inline-block;
+    }
+
+    .footer-list {
+      padding: 20px 0;
+      text-align: center;
+    }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+.fab {
+  padding: 20px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fas {
+  padding: 20px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-linkedin {
+  background:#007bb5;
+  color: white;
+
+}
+
+
+.fa-envelope {
+  background:#C71610;
+  color: white;
+
+}
